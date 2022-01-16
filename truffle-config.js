@@ -22,7 +22,7 @@ const fs = require('fs');
 const path = require("path");
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 
-const keyFile = "";
+const keyFile = "../../../keystore/lap1000_deployment_key.txt";
 const PRIVATE_KEY_BAOBAB = fs.readFileSync(path.join(__dirname, keyFile), "utf8");
 const PRIVATE_KEY_CYPRESS = fs.readFileSync(path.join(__dirname, keyFile), "utf8");
 

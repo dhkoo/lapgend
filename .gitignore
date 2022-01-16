@@ -3,3 +3,4 @@
 **/keystore
 **/.vscode
 **/package-lock.json
+truffle-config.js
